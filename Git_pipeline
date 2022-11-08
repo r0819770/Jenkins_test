@@ -11,6 +11,10 @@ pipeline {
             steps{
                 echo 'It really works, every change will be built'
             }
+            stage('third'){
+            steps{
+                echo 'next stage'
+            }
         }
     }
 }

@@ -11,7 +11,7 @@ pipeline {
             steps{
                 echo 'It really works, every change will be built'
             }
-            stage('third'){
+        stage('third'){
             steps{
                 echo 'next stage'
             }

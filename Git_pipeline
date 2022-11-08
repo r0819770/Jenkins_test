@@ -9,7 +9,7 @@ pipeline {
         }
         stage('Second'){
             steps{
-                echo 'It really works'
+                echo 'It really works, every change will be built'
             }
         }
     }
